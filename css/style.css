@@ -1,0 +1,57 @@
+﻿
+html, body {
+	font-family: Verdana, sans-serif;
+}
+
+.wrapper {
+	margin: 20px auto;
+	width: 502px;
+}
+
+button {
+	width: 90px;
+	padding: 12px 0;
+	margin: 4px 4px;
+}
+
+.options {
+	width: 410px;
+	margin: 4px auto;
+}
+
+.pattern-container {
+	margin-top: 14px;
+	position: relative;
+	width: 502px;
+	height: 124px;
+}
+
+.box {
+	border: 1px solid black;
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	line-height: 48px;
+	text-align: center;
+	font-size: 42px;
+}
+.box:hover {
+	cursor: default;
+}
+
+.link {
+	background: black;
+	position: absolute;
+}
+
+.solutions {
+	text-align: center;
+}
+
+.autofill {
+	background: #A3D4FF;
+}
+
+.selected {
+	background: #FFEC8E;
+}
